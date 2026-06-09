@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <title>OPEN TXT</title>
+    <meta name="description" content="Just type some text">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="OPEN TXT">
+    <meta property="og:description" content="Just type some text">
+    <meta property="og:image" content="https://txt.opn.sc/og.gif">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:image" content="https://txt.opn.sc/og.gif">
+    <link rel="stylesheet" href="css.css">
+    <script type="text/javascript" src="corner-pin.js"></script>
+    <script type="text/javascript" src="svg-parser.js"></script>
+    <script type="text/javascript" src="js.js"></script>
+  </head>
+  <body>
+    <div class="cols">
+      <div class="controls">
+        <div class="row">
+          <textarea class="grow" rows="4">OPEN
+SAUCE</textarea>
+          <div class="layout"></div>
+        </div>
+        <div>
+          <form>
+            <div style="position: relative; display: inline-block;">
+              <div>
+                <label>
+                  <input name="h-align" type="radio" value="left">
+                  LEFT
+                </label>
+                <label>
+                  <input name="h-align" type="radio" value="center">
+                  CENTER
+                </label>
+                <label>
+                  <input name="h-align" type="radio" value="right">
+                  RIGHT
+                </label>
+                <label>
+                  <input name="h-align" type="radio" value="justify">
+                  JUSTIFY
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input name="v-align" type="radio" value="top">
+                  TOP
+                </label>
+                <label>
+                  <input name="v-align" type="radio" value="center">
+                  CENTER
+                </label>
+                <label>
+                  <input name="v-align" type="radio" value="BOTTOM">
+                  BOTTOM
+                </label>
+                <label>
+                  <input name="v-align" type="radio" value="stretch">
+                  STRETCH
+                </label>
+              </div>
+              <div>
+                <label>
+                  Line spacing
+                  <input name="line-spacing" type="number" min="0" max="100" step="0.01">
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input name="line-spacing" type="checkbox">
+                  Render bars
+                </label>
+                <label>
+                  <input name="bar-margin" type="number" min="0" max="100" step="0.01">
+                  Margin
+                </label>
+              </div>
+              <div class="coming-soon">
+                <div>Coming <span style="text-decoration: line-through;">soon</span> eventually</div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="output">
+        <div class="preview"></div>
+        <div>
+          <button class="copy">Copy</button>
+          <button class="download">Download</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
